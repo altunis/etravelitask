@@ -1,0 +1,9 @@
+1 ) surrounded If elses with switch expression on RentalInfo.java class to make the code more readable.
+2 ) created constants MovieTypes added REGULAR,NEW and CHILDRENS as its values. I used the constants instead of boilerplate IF ELSEs on RetailInfo class
+3 ) created MinimumDayToFreeRental class and DailyPrice class and collected the Constants on those classes so that way they could be managed more easily
+4 ) created three packages, and spread the classes to the correspondent packages 
+5 ) used the previous main methods commands as test case.
+6 ) movies.get(r.getMovieId()).getCode() == "new" this line was not correct. Strings are objects therefore they can not be compared with "==" operator
+7 ) Created a short boolean method to check If the movie is new.  Used that method inside If to make the code more esthetic
+8 ) I replaced "\n with System.lineSeparator()"
+9 ) Added input so users can enter their movies and customer names
